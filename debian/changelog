@@ -1,0 +1,7 @@
+ros-humble-callback-isolated-executor (1.0.0-1jammy) jammy; urgency=high
+
+  * First release. See https://autowarefoundation.github.io/callback_isolated_executor_doc/ for documentation.
+
+ -- "Takahiro Ishikawa-Aso" <sykwer@gmail.com>  Sat, 20 Jun 2026 15:00:00 -0000
+
+
