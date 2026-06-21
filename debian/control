@@ -1,0 +1,12 @@
+Source: ros-jazzy-cie-sample-application
+Section: misc
+Priority: optional
+Maintainer: "Takahiro Ishikawa-Aso" <sykwer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-callback-isolated-executor, ros-jazzy-cie-thread-configurator, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://index.ros.org/p/cie_sample_application/#jazzy
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-cie-sample-application
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-callback-isolated-executor, ros-jazzy-cie-thread-configurator, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: Sample application to demonstrate the use of cie_thread_configurator and callback_isolated_executor.
