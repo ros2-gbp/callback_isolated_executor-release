@@ -1,0 +1,12 @@
+Source: ros-humble-cie-thread-configurator
+Section: misc
+Priority: optional
+Maintainer: "Takahiro Ishikawa-Aso" <sykwer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libyaml-cpp-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-cie-config-msgs, ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/cie_thread_configurator/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-cie-thread-configurator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-humble-cie-config-msgs, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: A dedicated node that configures the scheduling attributes of each thread in callback_isolated_executor.
