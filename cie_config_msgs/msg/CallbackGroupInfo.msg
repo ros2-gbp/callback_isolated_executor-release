@@ -1,2 +1,0 @@
-string callback_group_id
-int64 thread_id
